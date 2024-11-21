@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylerealizacoes.css">
+    <link rel="shortcut icon" href="../favicon_io/favicon.ico" type="image/x-icon">
+    <title><Fieldset></Fieldset>ormulario</title>
+</head>
+<body>
+    <body class="realizacoes">
+        <div class="theme-toggle">
+            <img class="toggle-ball" src="../assets/herobrine_icon.png" alt="herobrine_icon">
+        </div>
+        <form id="postForm" type="text">
+            <label for="postTitle">Título do Post:</label>
+            <input type="text" id="postTitle" placeholder="Digite o título" required>
+    
+            <label for="postContent">Conteúdo do Post:</label>
+            <textarea id="postContent" rows="5" placeholder="Digite o conteúdo"></textarea>
+    
+            <label>
+                <input type="checkbox" id="isVisible">
+                Tornar o post visível
+            </label>
+    
+            <button type="submit">Criar Post</button>
+        </form>
+        <div><a href="realizacoes.html" class="Butao" id="rel">voltar</a></div>
+        <script src="../scripts/novopost.js"></script>
+        <script src="../scripts/script.js"></script>
+</body>
+</html>

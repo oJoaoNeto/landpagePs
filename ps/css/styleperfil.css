@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('../assets/Minecraftia.ttf') format('truetype');
+}
+body {
+    transition: none;
+    font-family: 'Minecraftia', sans-serif;
+}
+#title {
+    text-align: left;
+    margin-left: 120px;
+    color: gray;
+    margin-bottom: 15px;
+}
+body.light {
+    background: url('../assets/steve.png');
+    background-size: cover;
+}
+
+body.dark {
+    background: url('../assets/eucospobre2.png');
+    background-size: cover;
+    color: white;
+}
+.theme-toggle {
+    width: 60px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+    overflow: hidden;
+    z-index: 2;
+}
+.toggle-ball {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    transition: left 0.3s ease;
+}
+body.dark .toggle-ball {
+    left: 54%;
+    background-color: black;
+    content: url("../assets/steve_icon.png");
+}
+.Butao {
+    text-align: center;
+    gap: 20px;
+    width: 120px;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin: auto;
+    margin: 30px 60px 60px;
+    line-height: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/fundoButao.png') no-repeat center center;
+    background-size: 100% 100%;
+    border: 2px solid #565656;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #565656;
+    text-decoration: none;
+    color: white;
+}
+.Butao:hover {
+    background-color: #808080;
+    border-top: 3px solid #565656;
+}
+#bmenu {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+perfil{
+    margin: 0;
+    height: 100vh; 
+    background: url('../assets/eucospobre2.png');
+    flex-direction: column;
+    
+}body.perfil.dark{
+    background: url('../assets/eucospobre2.png');
+    background-size: cover;
+}
+.perf{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+.informacoes {
+    color: white;
+    width: 300px; 
+    padding: 10px;
+}
+#pdei {
+    color: white;
+    width: 300px; 
+    padding: 10px;
+    margin-left: 20px; 
+}
+body.light .euform{
+    visibility: visible;
+}
+body.dark .euform{
+    visibility: hidden;
+}
+.euform{
+    width: 100px; 
+    height: 100px; 
+    position: fixed;
+    left: 300px;
+    top: 70px; 
+    border-radius: 50%; 
+    border: 5px solid #000; 
+    object-fit: cover; 
+}
+
+

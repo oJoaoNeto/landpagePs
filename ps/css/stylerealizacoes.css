@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('../assets/Minecraftia.ttf') format('truetype');
+}
+#realizacoes {
+    text-decoration: none;
+    margin-bottom: 30px;
+    width: auto;
+    color: rgb(177, 176, 176);
+    display: block;
+    line-height: 20px;
+}.informacoes {
+    color: white;
+    width: 300px; 
+    padding: 10px;
+}
+#rel {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+form {
+    margin-bottom: 20px;
+    max-width: 300px; 
+    margin-left: 10px; 
+    
+}
+label {
+    margin: 10px 0 5px;
+    display: inline-block;
+    font-weight: bold; 
+}
+input[type="text"], textarea, button {
+    background: url('../assets/fundoButao.png') no-repeat center center;
+    color: white;
+    font-family: 'Minecraftia';
+    background-size: 100% 100%; 
+    padding: 10px; 
+    font-size: 14px; 
+    width: 100%; 
+}
+input[type="checkbox"] {
+    width: auto; 
+    height: auto;
+    margin-right: 5px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+#postsContainer {
+    margin-top: 20px;
+}
+.post {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.post.hidden {
+    display: none;
+}
